@@ -33,7 +33,7 @@ Consider this simple CSS file called style.css:
 
 Run a command from the same directory
 
-	css-color-grab 585858 style.css
+	css-color-grab #585858 style.css
 
 And you'll get this in your terminal:
 
@@ -46,7 +46,7 @@ And you'll get this in your terminal:
 
 Grabbing white color
 
-	css-color-grab ffffff style.css
+	css-color-grab #ffffff style.css
 
 Will give you this:
 
@@ -58,7 +58,7 @@ Will give you this:
 
 To save the output to a file:
 
-	css-color-grab 585858 style.css dark.css
+	css-color-grab #585858 style.css dark.css
 
 # Dependencies
 
