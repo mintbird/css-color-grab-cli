@@ -85,7 +85,7 @@ function processInput( data ) {
 				}
 
 				properties[ 'border-color' ].selectors.push( decl.parent.selector );
-				properties[ 'border-color' ].value = '#' + color;
+				properties[ 'border-color' ].value = color;
 
 			} else if ( decl.prop == 'border-top' ) {
 
@@ -98,7 +98,7 @@ function processInput( data ) {
 				}
 
 				properties[ 'border-top-color' ].selectors.push( decl.parent.selector );
-				properties[ 'border-top-color' ].value = '#' + color;
+				properties[ 'border-top-color' ].value = color;
 
 			} else if ( decl.prop == 'border-right' ) {
 
@@ -111,7 +111,7 @@ function processInput( data ) {
 				}
 
 				properties[ 'border-right-color' ].selectors.push( decl.parent.selector );
-				properties[ 'border-right-color' ].value = '#' + color;
+				properties[ 'border-right-color' ].value = color;
 
 			} else if ( decl.prop == 'border-bottom' ) {
 
@@ -124,7 +124,7 @@ function processInput( data ) {
 				}
 
 				properties[ 'border-bottom-color' ].selectors.push( decl.parent.selector );
-				properties[ 'border-bottom-color' ].value = '#' + color;
+				properties[ 'border-bottom-color' ].value = color;
 
 			} else if ( decl.prop == 'border-left' ) {
 
@@ -137,7 +137,7 @@ function processInput( data ) {
 				}
 
 				properties[ 'border-left-color' ].selectors.push( decl.parent.selector );
-				properties[ 'border-left-color' ].value = '#' + color;
+				properties[ 'border-left-color' ].value = color;
 
 			} else if ( decl.prop == 'outline' ) {
 
@@ -150,7 +150,7 @@ function processInput( data ) {
 				}
 
 				properties[ 'outline-color' ].selectors.push( decl.parent.selector );
-				properties[ 'outline-color' ].value = '#' + color;
+				properties[ 'outline-color' ].value = color;
 
 			} else {
 
